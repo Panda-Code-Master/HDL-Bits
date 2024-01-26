@@ -12,7 +12,7 @@ module top_module( input in, output out );
 
 endmodule
 
-##Behavior modelling
+## Behavior modelling
 module top_module( input in, output out );
     
     always@(in)
