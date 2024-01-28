@@ -20,8 +20,7 @@ module top_module(
     always @(in) 
         begin
             out_hi = in[15:8];
-            out_lo = in[7:0];
-                    
+            out_lo = in[7:0];        
         end
 
 endmodule
