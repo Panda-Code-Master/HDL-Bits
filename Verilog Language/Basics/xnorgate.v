@@ -1,4 +1,4 @@
-## Gate-Structural Modelling
+// Gate-Structural Modelling
 module top_module( 
     input a, 
     input b, 
@@ -7,7 +7,7 @@ module top_module(
 
 endmodule
 
-## Data-Flow Modelling
+// Data-Flow Modelling
 module top_module( 
     input a, 
     input b, 
@@ -16,12 +16,14 @@ module top_module(
 
 endmodule
 
-## Behavioural Modelling
+// Behavioural Modelling
 module top_module( 
     input a, 
     input b, 
     output out );
     always@(a,b)
-        out = a ~^ b;
+        begin
+            out = a ~^ b;
+        end
 
 endmodule
