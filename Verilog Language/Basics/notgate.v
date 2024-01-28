@@ -1,21 +1,23 @@
-## Gate Structural modelling
+// Gate Structural modelling
 module top_module( input in, output out );
     
     not(out,in);        
 
 endmodule
 
-## Data-Flow modelling
+// Data-Flow modelling
 module top_module( input in, output out );
     
     assign out = ~in;       
 
 endmodule
 
-## Behavior modelling
+// Behavior modelling
 module top_module( input in, output out );
     
     always@(in)
-        out = ~in;        
+        begin
+            out = ~in;
+        end        
 
 endmodule
