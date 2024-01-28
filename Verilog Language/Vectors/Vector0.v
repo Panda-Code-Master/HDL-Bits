@@ -1,4 +1,4 @@
-## Data-Flow Modelling
+// Data-Flow Modelling
 module top_module ( 
     input wire [2:0] vec,
     output wire [2:0] outv,
@@ -13,7 +13,7 @@ module top_module (
 
 endmodule
 
-## Behaviour modelling
+// Behaviour modelling
 module top_module ( 
     input wire [2:0] vec,
     output wire [2:0] outv,
